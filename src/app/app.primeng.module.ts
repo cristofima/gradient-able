@@ -1,6 +1,7 @@
 import {NgModule} from '@angular/core';
 
 import {SliderModule} from 'primeng';
+import {CalendarModule} from 'primeng/calendar';
 import {InputTextModule} from 'primeng/inputtext';
 import {ButtonModule} from 'primeng/button';
 import {PanelModule} from 'primeng/panel';
@@ -60,7 +61,8 @@ import { CommonModule } from '@angular/common';
     SliderModule,
     SelectButtonModule,
     TabViewModule,
-    ListboxModule
+    ListboxModule,
+    CalendarModule
   ],
   exports: [
     CommonModule,
@@ -91,7 +93,8 @@ import { CommonModule } from '@angular/common';
     SliderModule,
     SelectButtonModule,
     TabViewModule,
-    ListboxModule
+    ListboxModule,
+    CalendarModule
   ]
 })
 export class AppPrimeNgModule {

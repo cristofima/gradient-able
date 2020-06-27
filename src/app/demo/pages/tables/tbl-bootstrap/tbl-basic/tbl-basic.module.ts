@@ -6,6 +6,7 @@ import { TblBasicComponent } from './tbl-basic.component';
 import {SharedModule} from '../../../../../theme/shared/shared.module';
 import { CarService } from '../../services/car.service';
 import { AppPrimeNgModule } from '../../../../../app.primeng.module';
+import { CustomerService } from '../../services/customer.service';
 
 @NgModule({
   declarations: [TblBasicComponent],
@@ -16,7 +17,8 @@ import { AppPrimeNgModule } from '../../../../../app.primeng.module';
     AppPrimeNgModule,
   ],
   providers:[
-    CarService
+    CarService,
+    CustomerService
   ],
 })
 export class TblBasicModule { }
