@@ -30,23 +30,14 @@ import {GradientConfig} from '../../../../../app-config';
   ]
 })
 export class NavRightComponent implements OnInit, DoCheck {
-  public visibleUserList: boolean;
-  public chatMessage: boolean;
-  public friendId: boolean;
+  
   public gradientConfig: any;
 
   constructor() {
-    this.visibleUserList = false;
-    this.chatMessage = false;
     this.gradientConfig = GradientConfig.config;
   }
 
   ngOnInit() { }
-
-  onChatToggle(friendID) {
-    this.friendId = friendID;
-    this.chatMessage = !this.chatMessage;
-  }
 
   ngDoCheck() {
     if (document.querySelector('body').classList.contains('elite-rtl')) {
