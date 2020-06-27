@@ -22,10 +22,6 @@ const routes: Routes = [
         loadChildren: () => import('./demo/pages/layout/layout.module').then(module => module.LayoutModule)
       },
       {
-        path: 'basic',
-        loadChildren: () => import('./demo/ui-elements/ui-basic/ui-basic.module').then(module => module.UiBasicModule)
-      },
-      {
         path: 'forms',
         loadChildren: () => import('./demo/pages/form-elements/form-elements.module').then(module => module.FormElementsModule)
       },
