@@ -23,7 +23,7 @@
     "@angular/platform-browser-dynamic": "~9.0.3",
     "@angular/router": "~9.0.3",
     "@fullcalendar/core": "^5.0.0",
-    "@ng-bootstrap/ng-bootstrap": "^4.2.1",
+    "@ng-bootstrap/ng-bootstrap": "^6.1.0",
     "apexcharts": "^3.8.0",
     "bootstrap": "^4.3.1",
     "chart.js": "^2.9.3",
