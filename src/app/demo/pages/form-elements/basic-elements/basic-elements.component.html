@@ -1,3 +1,45 @@
+<p-panel header="Nueva comida">
+  <div class="ui-fluid">
+      <div class="ui-g">
+        <div class="ui-g-12 ui-md-6">
+          <div class="ui-g-12 ui-md-4">
+            <strong>Nombre</strong>
+          </div>
+          <div class="ui-g-12 ui-md-8">
+            <input maxLength="50" pInputText type="text"/>
+          </div>
+        </div>
+        <div class="ui-g-12 ui-md-6">
+          <div class="ui-g-12 ui-md-4">
+            <strong>Precio ($)</strong>
+          </div>
+          <div class="ui-g-12 ui-md-8">
+            <p-spinner [min]="0.25" [step]="0.01"></p-spinner>
+          </div>
+        </div>
+        <div class="ui-g-12 ui-md-6">
+          <div class="ui-g-12 ui-md-4">
+            <strong>Tiempo de preparación</strong>
+          </div>
+          <div class="ui-g-12 ui-md-8">
+            <p-spinner [min]="0" placeholder="En minutos"></p-spinner>
+          </div>
+        </div>
+        <div class="ui-g-12 ui-md-6">
+          <div class="ui-g-12 ui-md-4">
+            <strong>Descripción</strong>
+          </div>
+          <div class="ui-g-12 ui-md-8">
+            <textarea pInputTextarea placeholder="Corta descripción"></textarea>
+          </div>
+        </div>
+        <div class="ui-g-12 ui-md-6">
+          <button label="Guardar" pButton></button>
+        </div>
+      </div>
+  </div>
+</p-panel>
+
 <div class="row">
   <div class="col-sm-12">
     <app-card cardTitle="Basic Component" [options]="false">
