@@ -28,9 +28,42 @@ import {InputSwitchModule} from 'primeng/inputswitch';
 import {SelectButtonModule} from 'primeng/selectbutton';
 import {TabViewModule} from 'primeng/tabview';
 import {ListboxModule} from 'primeng/listbox';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
+  imports: [
+    CommonModule,
+    InputSwitchModule,
+    DialogModule,
+    InputTextModule,
+    ButtonModule,
+    PanelModule,
+    ToastModule,
+    TableModule,
+    MessageModule,
+    CardModule,
+    ProgressSpinnerModule,
+    OverlayPanelModule,
+    BreadcrumbModule,
+    SidebarModule,
+    InputTextareaModule,
+    MessagesModule,
+    MultiSelectModule,
+    DropdownModule,
+    FileUploadModule,
+    KeyFilterModule,
+    SpinnerModule,
+    TooltipModule,
+    DataViewModule,
+    ConfirmDialogModule,
+    PickListModule,
+    SliderModule,
+    SelectButtonModule,
+    TabViewModule,
+    ListboxModule
+  ],
   exports: [
+    CommonModule,
     InputSwitchModule,
     DialogModule,
     InputTextModule,
